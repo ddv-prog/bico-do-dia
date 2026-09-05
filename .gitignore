@@ -1,0 +1,72 @@
+# Dependências
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Variáveis de ambiente
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Arquivos do sistema operacional
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos do VS Code
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Arquivos de build
+
+dist/
+build/
+out/
+
+# Cobertura de testes
+
+coverage/
+
+# Cache
+
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Arquivos temporários
+
+*.tmp
+*.temp
+
+# Arquivos de configuração local
+
+*.local
+
+# Credenciais e chaves
+
+*.pem
+*.key
+*.crt
+
+# Banco de dados local
+
+*.sqlite
+*.sqlite3
+*.db
