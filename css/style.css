@@ -1,0 +1,75 @@
+:root {
+    --primaria: #FF6B00;
+    --secundaria: #172033;
+    --texto: #667085;
+    --fundo: #F8FAFC;
+    --branco: #FFFFFF;
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--fundo);
+}
+.nav-home {
+    display: flex;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    gap: 40px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+body{
+    background-color: var(--fundo);
+    margin-top: 0;
+    padding: 0;
+
+}
+
+.secao1{
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 30px;
+}
+
+#icone{
+    font-size: 40px;
+}
+
+.btn-entrar {
+    background-color: var(--branco);
+    color: var(--secundaria);
+    border: 1px solid var(--secundaria);
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-criar {
+    background-color: var(--primaria);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e05e00;
+}
+
